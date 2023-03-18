@@ -9,7 +9,7 @@
 
 ### Features
 * Detect position of impacted mandibular third molar
-* Classify difficulty level of impacted mandibular third molar extraction into 3 levels: novice, intermediate, and expert
+* Classify difficulty level of impacted mandibular third molar extraction into 3 levels: Novice, Intermediate, and Expert
 
 
 ### Built With
@@ -45,7 +45,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 ## Usage
-1. Login to use our service using email of `testuser@gmail.com` and password of `user1234`<br/>
+1. Visit <a href="https://dentify-x.netlify.app/">https://dentify-x.netlify.app/</a> and sign in to use our service with email of `testuser@gmail.com` and password of `user1234`.<br/>
 <img width="500" alt="Login" src="https://user-images.githubusercontent.com/62735973/226099884-9ab1d84a-ca56-446c-b364-b3ad364d0aa6.png" />
 
 2. Upload panoramic dental radiographs and click `Analyze` button. (Note: The current support format of the image are jpg and png.) <br/>
