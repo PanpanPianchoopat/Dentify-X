@@ -3,22 +3,37 @@
   <img src="public/assets/DentifyX-logo.svg" alt="Logo" height="65" />
 </div>
 <h2 align="center">AI-assisted Web Application</h2>
-This web application is integrated with AI model to detect and analyze impacted third molar in dental panoramic radiographs.
+<a href="https://dentifyx.netlify.app">Dentify-X</a> is integrated with AI models to detect and analyze impacted mandibular third molars in dental panoramic radiographs. 
 
 ## About the Project
+
+### Features
+* Detect position of impacted mandibular third molar
+* Classify difficulty level of impacted mandibular third molar extraction into 3 levels: novice, intermediate, and expert
+
+
 ### Built With
-* [![Next][Next.js]][Next-url]
+* <a href="https://nextjs.org/">Next.JS</a>
+* <a href="https://flask.palletsprojects.com/en/2.2.x/">Flask</a>
+* <a href="https://www.tensorflow.org">TensorFlow</a>
+* <a href="https://keras.io">Keras</a>
+
+
 
 ## Getting Started
+```bash
+$ git clone https://github.com/PanpanPianchoopat/Dentify-X.git
+```
 
-First, run the development server:
+
+To run the development server:
 
 ```bash
-npm run dev
+$ npm run dev
 # or
-yarn dev
+$ yarn dev
 # or
-pnpm dev
+$ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -26,6 +41,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 ## Usage
+
 
 
 ## Collaborators
@@ -41,7 +57,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## License
 Distributed under GNU Lesser General Public License (GNU LGPL). See `LICENSE.md` for more information.
-
-
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
