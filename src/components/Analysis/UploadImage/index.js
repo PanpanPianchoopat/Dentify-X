@@ -5,7 +5,7 @@ import { toPng } from "html-to-image";
 import { LoadingIcon } from "@/pages/styled";
 import { EmptyIcon } from "../../../components/common/NoData/styled";
 
-import { Upload, Slider, message } from "antd";
+import { Upload, message } from "antd";
 import StyledButton from "@/components/common/StyledButton";
 
 import {
@@ -68,9 +68,22 @@ export default function UploadImage({ ...props }) {
       });
   }, [imgRef]);
 
+  const beforeUpload = (file) => {
+    const isTooLarge = file.size / 1024 / 1024 > 2;
+    if (isTooLarge) {
+      console.log("FS", file.size / 1024 / 1024);
+      message
+        .error("Image must be smaller than 2MB!")
+        .then(() => handleReupload());
+    }
+  };
+
   const handleChange = (info) => {
     const fileType = info.file.type;
-    const isValidFile = fileType === "image/jpeg" || fileType === "image/png";
+    const isValidFile =
+      fileType === "image/jpeg" ||
+      fileType === "image/png" ||
+      fileType === "image/bmp";
     if (info.file.status === "uploading") {
       setLoading(true);
       return;
@@ -90,6 +103,7 @@ export default function UploadImage({ ...props }) {
   const handleReupload = () => {
     setImage(null);
     setFilterImg(null);
+    setLoading(false);
     props.setResultLoad(false);
     props.setResult(null);
   };
@@ -114,6 +128,7 @@ export default function UploadImage({ ...props }) {
           </p>
           <Upload
             action="/api/imgUpload"
+            beforeUpload={beforeUpload}
             onChange={(info) => handleChange(info)}
             showUploadList={false}
           >
