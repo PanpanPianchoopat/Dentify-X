@@ -71,7 +71,6 @@ export default function UploadImage({ ...props }) {
   const beforeUpload = (file) => {
     const isTooLarge = file.size / 1024 / 1024 > 2;
     if (isTooLarge) {
-      console.log("FS", file.size / 1024 / 1024);
       message
         .error("Image must be smaller than 2MB!")
         .then(() => handleReupload());
