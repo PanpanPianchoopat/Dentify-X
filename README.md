@@ -18,6 +18,10 @@
 * <a href="https://www.tensorflow.org">TensorFlow</a>
 * <a href="https://keras.io">Keras</a>
 
+<div align="center">
+  <img width="90%" alt="ArchitectureDiagram" src="https://user-images.githubusercontent.com/62735973/226101292-d8a3793d-3a3b-422e-bcb6-aa93814c15dd.png" />
+</div>
+
 
 
 ## Getting Started
@@ -26,7 +30,7 @@ $ git clone https://github.com/PanpanPianchoopat/Dentify-X.git
 ```
 
 
-To run the development server:
+To run frontend development server:
 
 ```bash
 $ npm run dev
@@ -41,6 +45,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 ## Usage
+1. Login to use our service using email of `testuser@gmail.com` and password of `user1234`<br/>
+<img width="500" alt="Login" src="https://user-images.githubusercontent.com/62735973/226099884-9ab1d84a-ca56-446c-b364-b3ad364d0aa6.png" />
+
+2. Upload panoramic dental radiographs and click `Analyze` button. (Note: The current support format of the image are jpg and png.) <br/>
+<img width="500" alt="Screen Shot 2023-03-18 at 17 12 45" src="https://user-images.githubusercontent.com/62735973/226100215-1a9faab1-60ad-4afc-8916-6286c953e724.png" />
+
+3. Wait for the analysis result.<br/>
+<img width="500" alt="Screen Shot 2023-03-18 at 17 16 24" src="https://user-images.githubusercontent.com/62735973/226100225-7f72ac6f-587c-46b8-a87d-a3912f981b72.png" />
 
 
 
