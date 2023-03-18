@@ -1,5 +1,9 @@
-# Dentify-X AI-assisted Web Application for Impacted Tooth Screening
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- [Dentify Logo](public/assets/DentifyX-logo.svg) -->
+<div align="center">
+  <img src="public/assets/DentifyX-logo.svg" alt="Logo" height="65" />
+</div>
+<h2 align="center">AI-assisted Web Application</h2>
+This web application is integrated with AI model to detect and analyze impacted third molar in dental panoramic radiographs.
 
 ## Getting Started
 
