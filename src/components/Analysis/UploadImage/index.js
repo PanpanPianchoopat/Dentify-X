@@ -69,10 +69,10 @@ export default function UploadImage({ ...props }) {
   }, [imgRef]);
 
   const beforeUpload = (file) => {
-    const isTooLarge = file.size / 1024 / 1024 > 2;
+    const isTooLarge = file.size / 1024 / 1024 > 10;
     if (isTooLarge) {
       message
-        .error("Image must be smaller than 2MB!")
+        .error("Image must be smaller than 10MB")
         .then(() => handleReupload());
     }
   };
@@ -122,8 +122,11 @@ export default function UploadImage({ ...props }) {
       ) : (
         <UploadContainer customHeight={image}>
           <h2 style={{ fontWeight: "bold" }}>Upload Your Image</h2>
-          <p style={{ marginBottom: "40px" }}>
-            Only PNG and JPG files are allowed
+          <p style={{ margin: "5px 0", fontSize: "0.9em" }}>
+            Only BMP, PNG, and JPG files are allowed.
+          </p>
+          <p style={{ margin: "0 0 10px 0", fontSize: "0.9em" }}>
+            (10MB maximum)
           </p>
           <Upload
             action="/api/imgUpload"
