@@ -36,8 +36,6 @@ To run frontend development server:
 $ npm run dev
 # or
 $ yarn dev
-# or
-$ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -58,14 +56,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Collaborators
 :woman_technologist: <b>Ploypapas Pianchoopat</b><br/>
-&nbsp;&nbsp; Github: <a href="https://github.com/PanpanPianchoopat">@PanpanPianchoopat</a>
+Github: <a href="https://github.com/PanpanPianchoopat">@PanpanPianchoopat</a>
 
 :technologist: <b>Chatchapon Sukitporn-udom</b><br/>
-&nbsp;&nbsp; Github: <a href="https://github.com/Chatchaponz">@Chatchaponz</a>
+Github: <a href="https://github.com/Chatchaponz">@Chatchaponz</a>
 
 :woman_technologist: <b>Narapathra Morakrant</b><br/>
-&nbsp;&nbsp; Github: <a href="https://github.com/Frozenir">@Frozenir</a>
+Github: <a href="https://github.com/Frozenir">@Frozenir</a>
 
 
 ## License
-Distributed under GNU Lesser General Public License (GNU LGPL). See `LICENSE.md` for more information.
+Distributed under GNU Lesser General Public License (GNU LGPL). See [`LICENSE.md`](https://github.com/PanpanPianchoopat/Dentify-X/blob/main/LICENSE.md) for more information.
