@@ -9,7 +9,6 @@ const nextConfig = {
   images: {
     domains: ["media.giphy.com"],
   },
-  useFileSystemPublicRoutes: false,
 };
 
 module.exports = nextConfig
