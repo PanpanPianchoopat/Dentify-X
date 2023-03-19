@@ -126,7 +126,7 @@ export default function UploadImage({ ...props }) {
             Only BMP, PNG, and JPG files are allowed.
           </p>
           <p style={{ margin: "0 0 10px 0", fontSize: "0.9em" }}>
-            (4MB maximum)
+            (10MB maximum)
           </p>
           <Upload
             action="/api/imgUpload"
