@@ -3,7 +3,7 @@
   <img src="public/assets/DentifyX-logo.svg" alt="Logo" height="65" />
 </div>
 <h2 align="center">AI-assisted Web Application</h2>
-<a href="https://dentifyx.netlify.app">Dentify-X</a> is integrated with AI models to detect and analyze impacted mandibular third molars in dental panoramic radiographs. 
+<a href="https://dentify-x.vercel.app/">Dentify-X</a> is an AI-assisted web application aiming to help dentists identify appropriate difficulty level of impacted tooth extraction. From a panoramic dental radiograph, Dentify-X can suggest suitable professional level of dentist qualified to perform the operation.
 
 ## About the Project
 
@@ -43,10 +43,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 ## Usage
-1. Visit <a href="https://dentify-x.netlify.app/">https://dentify-x.netlify.app/</a> and sign in to use our service with email of `testuser@gmail.com` and password of `user1234`.<br/>
+1. Visit <a href="https://dentify-x.vercel.app/">https://dentify-x.vercel.app/</a> and sign in to use our service with email of `testuser@gmail.com` and password of `user1234`.<br/>
 <img width="500" alt="Login" src="https://user-images.githubusercontent.com/62735973/226099884-9ab1d84a-ca56-446c-b364-b3ad364d0aa6.png" />
 
-2. Upload panoramic dental radiographs and click `Analyze` button. (Note: The current support format of the image are jpg and png.) <br/>
+2. Upload panoramic dental radiographs and click `Analyze` button. (Note: The current support format of the image are bmp, jpg, and png with file size limit of 4 MB.) <br/>
 <img width="500" alt="Screen Shot 2023-03-18 at 17 12 45" src="https://user-images.githubusercontent.com/62735973/226100215-1a9faab1-60ad-4afc-8916-6286c953e724.png" />
 
 3. Wait for the analysis result.<br/>
