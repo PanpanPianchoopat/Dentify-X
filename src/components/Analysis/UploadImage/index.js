@@ -69,7 +69,7 @@ export default function UploadImage({ ...props }) {
   }, [imgRef]);
 
   const beforeUpload = (file) => {
-    const isTooLarge = file.size / 1024 / 1024 > 10;
+    const isTooLarge = file.size / 1024 / 1024 > 4;
     if (isTooLarge) {
       message
         .error("Image must be smaller than 10MB")
