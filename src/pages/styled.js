@@ -2,6 +2,7 @@ import styled from "styled-components";
 import colors from "../../public/constants/colors";
 import { BiLoaderAlt } from "react-icons/bi";
 import Image from "next/image";
+import breakpoints from "../../public/constants/breakpoints";
 
 export const LoginCard = styled.div`
   display: flex;
@@ -13,6 +14,11 @@ export const LoginCard = styled.div`
   margin: auto;
   padding: 1em 3em;
   border-radius: 16px;
+  @media (max-width: ${breakpoints.PHONE_PORTRAIT}) {
+    width: 80vw;
+    padding: 0 1.5em;
+    background: white;
+  }
 `;
 
 export const FormContainer = styled.div`
@@ -22,6 +28,9 @@ export const FormContainer = styled.div`
   margin-left: 34%;
   height: fit-content;
   position: relative;
+  @media (max-width: ${breakpoints.PHONE_PORTRAIT}) {
+    margin: 0;
+  }
 `;
 
 export const LogoContainer = styled.div`
@@ -30,6 +39,9 @@ export const LogoContainer = styled.div`
   width: 100%;
   height: 50px;
   margin: 40px 0;
+  @media (max-width: ${breakpoints.PHONE_PORTRAIT}) {
+    margin: 30px 0;
+  }
 `;
 
 export const BoldText = styled.p`

@@ -104,7 +104,7 @@ export default function Home() {
           title={<p style={{ color: colors.NAVY }}>FORGET PASSWORD?</p>}
           open={openPopup}
           footer={null}
-          width="350px"
+          width="300px"
           centered
           onCancel={() => setOpenPopup(false)}
           style={{ color: colors.NAVY }}

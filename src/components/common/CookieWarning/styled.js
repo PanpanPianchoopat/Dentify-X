@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { RxCookie } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
 import colors from "../../../../public/constants/colors";
+import breakpoints from "../../../../public/constants/breakpoints";
 
 export const WarningWrapper = styled.div.attrs((props) => {
   const dynamic_display = props.isShown ? "unset" : "none";
@@ -17,6 +18,11 @@ export const WarningWrapper = styled.div.attrs((props) => {
   color: ${colors.NAVY};
   background: white;
   display: ${(props) => props.dynamic_display};
+  @media (max-width: ${breakpoints.PHONE_PORTRAIT}) {
+    right: auto;
+    font-size: 10px;
+    padding: 0.5em;
+  }
 `;
 
 export const WarningHead = styled.div`
@@ -31,7 +37,10 @@ export const WarningHead = styled.div`
 export const CookieIcon = styled(RxCookie)`
   font-size: 40px;
   color: ${colors.NAVY};
-  margin-right: 15px;
+  margin-right: 0.5em;
+  @media (max-width: ${breakpoints.PHONE_PORTRAIT}) {
+    font-size: 30px;
+  }
 `;
 
 export const CancelButton = styled.button`
