@@ -10,7 +10,7 @@ export const WarningWrapper = styled.div.attrs((props) => {
 })`
   border: 2px solid ${colors.NAVY};
   border-radius: 9px;
-  position: absolute;
+  position: fixed;
   padding: 1em;
   bottom: 2em;
   right: 2em;
