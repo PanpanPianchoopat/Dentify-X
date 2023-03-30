@@ -22,6 +22,7 @@ export const WarningWrapper = styled.div.attrs((props) => {
     right: auto;
     font-size: 10px;
     padding: 0.5em;
+    bottom: 0.1em;
   }
 `;
 
